@@ -833,12 +833,25 @@ We provide Static Web Hosting where you can make your portfolio and host in inte
           <h4>
             Subscribe
           </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
-          </form>
+           <form name="fileForm" enctype="multipart/form-data" data-netlify="true">
+              <div>
+                <input type="text" placeholder="Your Name" id="name" name="name"/>
+              </div>
+              <div>
+                <input type="email" placeholder="Your Email" id="email" name="email" />
+              </div>
+              <div>
+                <input type="text" placeholder="Your Phone" id="number" name="number" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" id="message" name="message" />
+              </div>
+              <div class="btn_box ">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
         </div>
       </div>
     </div>
